@@ -17,7 +17,6 @@ const Moeda = sequelize.define('moedas',{
     USDT: {
         type: Sequelize.FLOAT
     }
-
 })
 Moeda.create({
     exchange: "Binance",
